@@ -1,0 +1,19 @@
+public class periodique extends documents{
+    private int freq;
+
+
+    public article(String titre, int nid , int nbp,int freq)
+    super(titre,nid,nbp);
+    this.freq=freq;
+}
+
+
+    
+    public String getfreq(){
+         return freq;
+
+    }
+    public String edition(){
+     return "periodique";
+
+}

@@ -1,0 +1,18 @@
+public class article extends documents{
+    private String auteur;
+
+
+    public article(String titre, int nid , int nbp,String auteur)
+    super(titre,nid,nbp);
+    this.auteur=auteur;
+
+
+}
+    public String getauteur(){
+         return auteur;
+
+    }
+    public String edition(){
+     return "article";
+
+}

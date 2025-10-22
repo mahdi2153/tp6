@@ -1,0 +1,17 @@
+public class livre extends article{
+    private String editeur;
+
+
+
+    public livre(String titre, int nid , int nbp,String auteur,String editeur)
+    super(titre,nid,nbp,auteur);
+    this.editeur=editeur;
+
+    public String getediteur(){
+         return editeur;
+
+    }
+    public String edition(){
+     return "livre";
+
+}
